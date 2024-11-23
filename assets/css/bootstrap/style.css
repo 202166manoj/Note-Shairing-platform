@@ -1,0 +1,72 @@
+/********** Template CSS **********/
+:root {
+    --primary: #009CFF;
+    --light: #F3F6F9;
+    --dark: #191C24;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+
+
+
+
+.content {
+    min-height: 100vh;
+    background: hsl(247, 69%, 95%);
+    transition: 0.5s;
+}
+
+/********** Template CSS **********/
+:root {
+    --primary: #009CFF;
+    --light: #F3F6F9;
+    --dark: #191C24;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+
+
+
+
+.content {
+    padding-top:90px;
+    padding-bottom:20px;
+    min-height: 100vh;
+    background: #3f23ac;
+    transition: 0.5s;
+}
+
+@media (min-width: 992px) {
+    
+    .content {
+        width: calc(100%);
+    }
+
+    .content.open {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
